@@ -1,0 +1,1 @@
+cp -r .alias .bashrc .exports .alias .functions .prompt .gitconfig .vimrc .inputrc ~
