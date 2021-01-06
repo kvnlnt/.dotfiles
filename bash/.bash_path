@@ -1,0 +1,26 @@
+# Adds ~/bin
+if [ -d '$HOME/bin' ]; then
+  PATH="$HOME/bin:$PATH"
+fi
+
+# Coder Enterprise devbin
+if [ -d '$HOME/Code/enterprise/devbin' ]; then
+  PATH="$HOME/Code/enterprise/devbin:$PATH"
+fi
+
+# Google Cloud SDK.
+if [ -f '/opt/google-cloud-sdk/path.bash.inc' ]; then
+  . '/opt/google-cloud-sdk/path.bash.inc';
+fi
+
+# Command completion for gcloud.
+if [ -f '/opt/google-cloud-sdk/completion.bash.inc' ]; then
+  . '/opt/google-cloud-sdk/completion.bash.inc';
+fi
+
+if [ -f '$HOME/.gvm/scripts/gvm' ]; then 
+  . '$HOME/.gvm/scripts/gvm'
+fi
+
+# kubectl autocompletion
+source <(kubectl completion bash)

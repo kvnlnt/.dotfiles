@@ -1,24 +1,15 @@
 [user]
-	name = Kevin Lint
 	email = kevin@coder.com
+	name = Kevin Lint
 	username = kvnlnt
 [core]
 	editor = vim
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	pager = delta
-[sendemail]
-	smtpencryption = tls
-	smtpserver = smtp.gmail.com
-	smtpuser = kevin@kevinlint.com
-	smtppass = password
-	smtpserverport = 587
+[url "git@github.com:"]
+	insteadOf = https://github.com/
 [web]
 	browser = google-chrome
-[instaweb]
-	httpd = apache2 -f
-[rerere]
-	enabled = 1
-	autoupdate = 1
 [push]
 	default = matching
 [color]
@@ -58,11 +49,6 @@
 	minus-empty-line-marker-style = normal normal
 	plus-empty-line-marker-style = normal normal
 	line-numbers-right-format = "{np:^4}│ "
-[github]
-	user = kvnlnt
-	token = token
-[gitflow "prefix"]
-	versiontag = v
 [sequence]
 	editor = interactive-rebase-tool
 [alias]
