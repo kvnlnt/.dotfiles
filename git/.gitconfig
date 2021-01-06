@@ -1,13 +1,10 @@
 [user]
 	email = kevin@coder.com
 	name = Kevin Lint
-	username = kvnlnt
 [core]
 	editor = vim
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	pager = delta
-[url "git@github.com:"]
-	insteadOf = https://github.com/
 [web]
 	browser = google-chrome
 [push]
