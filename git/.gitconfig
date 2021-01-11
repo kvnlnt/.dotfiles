@@ -98,7 +98,6 @@
 	#############
 	f = fetch
 	fo = fetch origin
-	fu = fetch upstream
 	#############
 	fp = format-patch
 	#############
