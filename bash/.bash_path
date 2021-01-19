@@ -4,8 +4,8 @@ if [ -d '$HOME/bin' ]; then
 fi
 
 # Coder Enterprise devbin
-if [ -d '$HOME/Code/enterprise/devbin' ]; then
-  PATH="$HOME/Code/enterprise/devbin:$PATH"
+if [ -d '$HOME/code/m/devbin' ]; then
+  PATH="$HOME/code/m/devbin:$PATH"
 fi
 
 # Google Cloud SDK.
