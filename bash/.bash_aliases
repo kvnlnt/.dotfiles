@@ -6,3 +6,4 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias chrome='google-chrome'
 alias docker-clean='docker system prune -a'
+alias k=kubectl
