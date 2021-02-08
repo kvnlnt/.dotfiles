@@ -19,3 +19,9 @@
 	prompt = false
 [pull]
 	rebase = false
+[alias]
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	f = "! git commit --fixup $(git log --pretty='%H' -1 --invert-grep --grep 'fixup! ')"
+	fixup = "!f() { git commit --fixup :/$1 ; }; f"
+	rom = rebase -i origin/master
+	clm = "! git branch -d $(git branch --merged=master | grep -v master)"
