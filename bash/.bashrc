@@ -88,9 +88,9 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+# alias ll='ls -alF'
+# alias la='ls -A'
+# alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -131,7 +131,6 @@ export PS1="\u \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 export GOOGLE_PROJECT_ID="coder-dev-1"
 export NAMESPACE="kevinlint"
 
-
-if [ -f "$HOME/.bash_path" ]; then
-    . "$HOME/.bash_path"
-fi
+# if [ -f "$HOME/.bash_path" ]; then
+#     . "$HOME/.bash_path"
+# fi
