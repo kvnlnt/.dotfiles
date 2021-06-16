@@ -19,3 +19,5 @@ ln -sf $DIR/bash/.prompt $HOME
 # Install git files
 ln -sf $DIR/git/.gitconfig $HOME
 
+source .bash_aliases .bash_path .bashrc .profile .prompt
+
